@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "cinco",
-    "slug": "cinco",
+    "name": "cinecult",
+    "slug": "cinecult",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -28,6 +28,12 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "49bf0938-ad25-467a-9148-1551adc7e497"
+      }
+    },
+    "owner": "amanj02895"
   }
 }
