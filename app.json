@@ -1,10 +1,10 @@
 {
   "expo": {
-    "name": "cinecult",
-    "slug": "cinecult",
+    "name": "JainBhakti",
+    "slug": "jain-bhakti",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/jain.png",
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
@@ -24,14 +24,15 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.amanj02895.jainbhakti"
     },
     "web": {
       "favicon": "./assets/favicon.png"
     },
     "extra": {
       "eas": {
-        "projectId": "49bf0938-ad25-467a-9148-1551adc7e497"
+        "projectId": "ae8ffec2-8fad-4230-930d-22639a331d07"
       }
     },
     "owner": "amanj02895"

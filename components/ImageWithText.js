@@ -1,7 +1,7 @@
 
 import React from 'react';
 import {View,Text,Image} from 'react-native';
-import styles from '../styles'
+import styles from '../utils/styles'
 
 export default function ImageWithText(props) {
     //props
