@@ -26,6 +26,10 @@ export default function Home(props) {
     const goToTemples = () => {
         navigateTo(props,'Temples',{},false);
     }
+
+    const goToStuti = () => {
+        navigateTo(props,'Stuti',{},false);
+    }
     
 
 
@@ -58,6 +62,7 @@ export default function Home(props) {
                     <View style={{flex : 1,marginHorizontal:10}}>
                         <ButtonWithImage
                             src = {Icons.button2}
+                            onClick={goToStuti}
                             text= "Stuti"
                             subtext = "Puja, Nitya Path, Chalisa and more ..."
                             height = {120}

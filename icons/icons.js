@@ -16,12 +16,23 @@ import templeNearMe from '../assets/templeNearMe.png';
 import templeInState from '../assets/templeInState.png';
 import templeInCity from '../assets/templesHeader.png';
 import templeSearch from '../assets/templeSearch.png';
+import stuti from '../assets/stuti.jpg';
+import dholak from '../assets/dholak.png';
+import incense from '../assets/incense.png';
+import swastika from '../assets/swastika.png';
+import pray from '../assets/pray.png';
+import book from '../assets/open-book.png';
 
 
 
 
 const Icons = {
     homebg : homebg,
+    dholak :dholak,
+    incense : incense,
+    swastika : swastika,
+    pray : pray,
+    book : book,
     homeHeader:homeHeader,
     button1:button1,
     button2:button2,
@@ -38,6 +49,7 @@ const Icons = {
     templegrey:templegrey,
     distance:distance,
     logo : logo,
-    Endpoint :  "https://cinecult.in/JBApp/" // http://2c42-103-247-4-88.ngrok.io/RentalAppApi/" // "https://attachit.in/RentalAppApi/"
+    stuti : stuti,
+    Endpoint :  "http://cinecult.in/JBApp/" // http://2c42-103-247-4-88.ngrok.io/RentalAppApi/" // "https://attachit.in/RentalAppApi/"
 }
 export default Icons;

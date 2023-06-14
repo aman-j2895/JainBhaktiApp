@@ -14,6 +14,9 @@ import TeerthCity from "./screens/TeerthCity";
 import TeerthGeneral from "./screens/TeerthGeneral";
 import TeerthNearMe from "./screens/TeerthNearMe";
 import { getData } from './utils/functions';
+import Stuti from './screens/Stuti';
+import PathGeneral from './screens/PathGeneral';
+import ViewPath from './screens/ViewPath';
 
 export default function App() {
   const Stack = createStackNavigator();
@@ -43,6 +46,9 @@ export default function App() {
           <Stack.Screen name="Main" component={Main}></Stack.Screen>
           <Stack.Screen name="Home" component={Home}></Stack.Screen>
           <Stack.Screen name="Temples" component={Temples}></Stack.Screen>
+          <Stack.Screen name="ViewPath" component={ViewPath}></Stack.Screen>
+          <Stack.Screen name="Stuti" component={Stuti}></Stack.Screen>
+          <Stack.Screen name="PathGeneral" component={PathGeneral}></Stack.Screen>
           <Stack.Screen name="TeerthState" component={TeerthState}></Stack.Screen>
           <Stack.Screen name="TeerthCity" component={TeerthCity}></Stack.Screen>
           <Stack.Screen name="TeerthGeneral" component={TeerthGeneral}></Stack.Screen>

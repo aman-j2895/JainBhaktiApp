@@ -34,7 +34,7 @@ export default StyleSheet.create({
   mainBG : {
     height: vh(100) + Constants.statusBarHeight + 2,
     position:"absolute",
-    backgroundColor : COLORS.bgTertiary,
+    backgroundColor : "#000000",
     width: "100%",
   },
   homeHeader:{

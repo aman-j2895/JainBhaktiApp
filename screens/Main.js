@@ -43,16 +43,16 @@ export default function Main(props) {
 
     return ( 
         <KeyboardAwareScrollView contentContainerStyle={styles.masterContainer}>
-            <ImageBackground source={Icons.homebg} 
-                    style={styles.mainBG} imageStyle={{opacity : 0.8}}>
+            <ImageBackground source={Icons.stuti} 
+                    style={styles.mainBG} imageStyle={{opacity : 0.6}}>
             </ImageBackground>
             <View>
-                <View style={{width:"100%",alignItems:"center",position:"absolute",top:height - 250}}>
+                <View style={{width:"100%",alignItems:"center",position:"absolute",top:height - 350}}>
                     <Animated.Image
                         source={Icons.logo}
                         style={{width:scaleLogo, height:scaleLogo}}
                     ></Animated.Image>
-                    <ActivityIndicator animating={state.isLoaderView} size="small" style={{opacity:1,marginTop:-100}} color="#999999" /> 
+                    <ActivityIndicator animating={state.isLoaderView} size="large" style={{opacity:1,marginTop:-100}} color="#ffffff" /> 
                 </View>
                 
      

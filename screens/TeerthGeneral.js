@@ -27,7 +27,7 @@ export default function TeerthCity(props) {
         if(state.searchText != ""){
             const delayDebounceFn = setTimeout(() => {
                 getTemplesByName(state,setState);
-              }, 500)
+              }, 1500)
           
               return () => clearTimeout(delayDebounceFn)
             
@@ -39,10 +39,10 @@ export default function TeerthCity(props) {
     const hideSuggestion = debounce((value) => {
         setshowSuggestion(false);
       }, 300);
-    console.log(state);
+
 
     function getTemplesByName(state,setState){
-        fetch(Icons.Endpoint+ 'getTemplesByName.php', {
+        fetch(Icons.Endpoint+ 'getTemplesByName.php/', {
             method: 'POST',
             headers: {
             'Content-Type': 'application/x-www-form-urlencoded;charset=UTF-8'
@@ -53,6 +53,7 @@ export default function TeerthCity(props) {
         })
         .then(res => res.json())
         .then(response => {
+            console.log("response>>>>",response);
             if(!response.isError){
             setState({...state,temples : response.temples,isTempleLoading:false});   
             }else{
